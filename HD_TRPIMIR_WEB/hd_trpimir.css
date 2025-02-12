@@ -153,3 +153,7 @@ p {
     width: 150px;
     height: 40px;
 }
+
+h2 {
+    width: auto;
+}
