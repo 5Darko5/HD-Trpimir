@@ -1,0 +1,155 @@
+
+
+title {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    height: 420px;
+    justify-self: end;
+}
+
+#glavno-zaglavlje {
+    width: 100%;
+    display: flex;
+}
+
+#zaglavlje {
+    background-color: #c3c1c5;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    }
+
+#zaglavljeSlika {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+#navigacijskiPanel {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#slike-u-headeru {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#zaglavljeSlika img {
+    height: 50%;
+    width: 40%;
+}
+
+.button-28 {
+  appearance: none;
+  background-color: #f8f8f8;
+  border: 1px solid #7a0687;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 1px #6b0a83;
+  box-sizing: border-box;
+  color: rgb(45, 45, 45);
+  cursor: pointer;
+  font-family: Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 40px;
+  min-width: 0;
+  outline: none;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 8%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #4f095a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* body */
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tekst-naslova {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /*border: 6px solid #4f095a;
+    box-sizing: border-box;*/
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    background-image: linear-gradient(45deg, rgb(84, 8, 128), rgb(244, 48, 205));
+}
+
+#sadrzaj {
+    width: 100%;
+    display: flex;
+    
+}
+
+#glavni-sadrzaj {
+    width: 85%;
+    height: 2000px;
+    display: flex;
+    background-color: ;
+    align-items: center;
+    flex-direction: column;
+}
+
+#glavni-sadrzaj img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#bocni-sadrzaj {
+    width: 15%;
+    height: 2000px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+}
+
+#postani-clan {
+    width: 150px;
+    height: 40px;
+}
