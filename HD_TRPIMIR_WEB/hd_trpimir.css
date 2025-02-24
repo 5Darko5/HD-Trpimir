@@ -62,7 +62,7 @@ header {
   color: rgb(45, 45, 45);
   cursor: pointer;
   font-family: Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 12px;
+  font-size: 0.7vw;
   font-weight: 600;
   line-height: normal;
   margin: 0;
@@ -161,7 +161,7 @@ main {
     justify-content: center;
     align-items: center;
 }
-/*kom*/
+
 .glavni-podsadrzaj:hover{
     background-color: rgba(128, 128, 128, 0.182);
     border-radius: 20px;
@@ -191,4 +191,26 @@ p {
 #postani-clan {
     width: 150px;
     height: 40px;
+}
+
+/* footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #645f65b3;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+footer div {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
