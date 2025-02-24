@@ -136,7 +136,7 @@ main {
 
 .glavni-sadrzaj {
     width: 95%;
-    height: 500px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,6 +191,14 @@ p {
 #postani-clan {
     width: 150px;
     height: 40px;
+}
+
+#statut-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 /* footer*/
