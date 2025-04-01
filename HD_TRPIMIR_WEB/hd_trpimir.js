@@ -5,6 +5,7 @@ const tipkaPublikacije = document.getElementById("tipka-publikacije")
 const tipkaGalerija = document.getElementById("tipka-galerija")
 const tipkaStatut = document.getElementById("tipka-statut")
 const tipkaClanovi = document.getElementById("tipka-clanovi")
+const tipkaPostaniClan = document.getElementById("postani-clan")
 
 function openLink(unesiLink){
     window.open(unesiLink, "_self")
@@ -17,3 +18,4 @@ tipkaPublikacije.addEventListener("click", function() {openLink("4_publikacije.h
 tipkaGalerija.addEventListener("click", function() {openLink("5_galerija.html")});
 tipkaStatut.addEventListener("click", function() {openLink("6_statut.html")});
 tipkaClanovi.addEventListener("click", function() {openLink("7_clanovi.html")});
+tipkaPostaniClan.addEventListener("click", function() {openLink("8_postaniclan.html")});
