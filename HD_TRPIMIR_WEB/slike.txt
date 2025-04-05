@@ -3,3 +3,15 @@ https://www.hdtrpimir.hr/wp-content/uploads/2018/03/logo-1.png
 - Slike na naslovnici
 - Galerija
 - Statut
+
+https://www.hdtrpimir.hr/wp-admin/
+username: davor
+password: hrvatskodrustvotrpimir
+
+a ovo je za Cpanel:
+Control Panel: http://www.hdtrpimir.hr/cpanel
+Username: hdtrpimi
+Password: 3kSmv8v52L
+
+GMAIL: hdtrpimirklis@gmail.com
+PASSWORD: *U4$3Zk%UtjOTUkd
