@@ -19,3 +19,21 @@ tipkaGalerija.addEventListener("click", function() {openLink("5_galerija.html")}
 tipkaStatut.addEventListener("click", function() {openLink("6_statut.html")});
 tipkaClanovi.addEventListener("click", function() {openLink("7_clanovi.html")});
 tipkaPostaniClan.addEventListener("click", function() {openLink("8_postaniclan.html")});
+
+let slideIndex = 1;
+pokaziSlideove(slideIndex);
+
+function plusSlide(n) {
+    pokaziSlideove(slideIndex += n);
+}
+
+function pokaziSlideove(n) {
+  let i;
+  let slideovi = document.getElementsByClassName("slajdoviSlika");
+  if (n > slideovi.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slideovi.length}
+  for (i = 0; i < slideovi.length; i++) {
+    slideovi[i].style.display = "none";
+  }
+  slideovi[slideIndex-1].style.display = "block";
+}
