@@ -29,7 +29,7 @@ function plusSlide(n) {
 
 function pokaziSlideove(n) {
   let i;
-  let slideovi = document.getElementsByClassName("slajdoviSlika");
+  let slideovi = this.getElementsByClassName("slajdoviSlika");
   if (n > slideovi.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slideovi.length}
   for (i = 0; i < slideovi.length; i++) {
