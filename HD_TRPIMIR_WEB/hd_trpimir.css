@@ -374,3 +374,23 @@ form button[type="submit"] {
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+/*TABLICA*/
+
+table {
+    width: 75%;
+    border-collapse: collapse; 
+    text-align: left;
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 18px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
