@@ -145,7 +145,6 @@ main {
     box-shadow: 0px 0px 15px 1px #7a0687;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-bottom: 10px;
 }
 
 .glavni-sadrzaj img {
@@ -155,16 +154,19 @@ main {
 }
 
 .glavni-podsadrzaj {
-    width: 30%;
+    width: 32%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 1010px;
+    box-shadow: 0px 0px 5px 0.1px rgba(0, 0, 0, 0.353);
+    border-radius: 10px;
 }
 
 .glavni-podsadrzaj:hover{
     background-color: rgba(128, 128, 128, 0.182);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .glavni-podsadrzaj p {
@@ -319,8 +321,6 @@ form button[type="submit"] {
 
 .galerija-container:hover {
     box-shadow: 0px 0px 15px 1px #4f095a;
-    width: 31%;
-    height: 510px;
 }
 
 .galerija-container div {
