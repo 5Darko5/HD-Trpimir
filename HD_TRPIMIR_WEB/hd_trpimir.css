@@ -96,6 +96,10 @@ header {
 
 /* body */
 
+body {
+    background-color:#76747698;
+}
+
 main {
     width: 100%;
     height: auto;
@@ -131,7 +135,8 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    align-items: center;
+    padding-left: 0px;
 }
 
 .glavni-sadrzaj {
@@ -142,9 +147,10 @@ main {
     align-items: center;
     flex-direction: row;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px 1px #7a0687;
+    /*box-shadow: 0px 0px 15px 1px #7a0687;*/
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color:#76747600;
 }
 
 .glavni-sadrzaj img {
@@ -157,15 +163,16 @@ main {
     width: 32%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
-    min-height: 1010px;
+    min-height: 900px;
     box-shadow: 0px 0px 5px 0.1px rgba(0, 0, 0, 0.353);
     border-radius: 10px;
+    background-color: rgb(224, 218, 218);
 }
 
 .glavni-podsadrzaj:hover{
-    background-color: rgba(128, 128, 128, 0.182);
+    background-color: #edd7f0a1;
     border-radius: 10px;
 }
 
@@ -175,7 +182,7 @@ main {
 
 #bocni-sadrzaj {
     width: 15%;
-    height: inherit;
+    height: fit-content;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -184,6 +191,10 @@ main {
     margin: 10px 20px 0px 0px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 1px #7a0687;
+}
+
+#bocni-sadrzaj button {
+    margin-bottom: 20px;
 }
 
 p {
