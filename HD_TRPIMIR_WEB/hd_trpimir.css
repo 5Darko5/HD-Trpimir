@@ -42,9 +42,52 @@ header {
 }
 
 #slike-u-headeru {
-    width: 100%;
     height: 300px;
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
+}
+
+#slike-u-headeru img {
+    flex: 0 0 100%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    animation: listaj 30s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes listaj {
+    0% {
+        transform: translateX(0%);
+    }
+    20% {
+        transform: translateX(0%)
+    }
+    23% {
+        transform: translateX(-100%)
+    }
+    40% {
+        transform: translateX(-100%)
+    }
+    43% {
+        transform: translateX(-200%)
+    }
+    60% {
+        transform: translateX(-200%)
+    }
+    63% {
+        transform: translateX(-300%)
+    }
+    80% {
+        transform: translateX(-300%)
+    }
+    83% {
+        transform: translateX(-400%)
+    }
+    100% {
+        transform: translateX(-400%)
+    }
 }
 
 #zaglavljeSlika img {
