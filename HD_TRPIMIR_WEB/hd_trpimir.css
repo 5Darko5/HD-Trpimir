@@ -273,6 +273,21 @@ h2 {
     height: inherit;
 }
 
+#publikacije-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: inherit;
+}
+
+#publikacije-div img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 
 /* footer*/
 
